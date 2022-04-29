@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Staatliches', cursive;
+    background-color: white;
+    max-width: 100%;
+
+}
+
+header {
+    background-color: #FFC600;
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+    justify-content: space-evenly;
+    /* position: relative; */
+    margin: 0;
+    padding: 3rem 2rem;
+}
+
+header img {
+    max-width: 135px;
+    border-radius: 990px;
+    /* border: .4rem solid white ; */
+    margin: .5rem;
+}
+
+header h1 {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 1.7rem;
+    /* display: inline; */
+    justify-content: center;
+    text-align: center;
+    font-weight: 300;
+}
+
+.intro {
+    padding: 1rem;
+}
+
+.intro:hover {
+    color: white;
+}
+
+nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: .75rem;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+nav li a {
+    font-size: 1.3rem;
+    color: black;
+    text-decoration: none;
+    margin: 1.2rem;
+}
+
+nav a:hover {
+    color: white;
+}
+
+section {
+    margin: 0 auto;
+    max-width: 750px;
+    text-align: center;
+    padding: 2rem;
+    
+}
+
+.about {
+    /* background-color: #E900FF; */
+    margin-top: 1rem;
+    text-align: center;
+    align-items: center;
+}
+
+.about h2 {
+    /* text-shadow: 5px 5px 4px #E900FF; */
+}
+
+.about p {
+    /* border-bottom: .03rem solid #5800FF;
+    border-width: 20%; */
+    padding: 2rem;
+    /* line-height: 1.3rem; */
+}
+
+section img {
+    width: 300px;
+    margin: 1rem;
+    border: .2rem solid #FFC600;
+}
+.first-image {
+    width: calc(600px + 2rem);
+}
+
+.work {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 950px;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.contact {
+    max-width: 100%;
+    font-weight: ;
+    padding: .8rem 3rem .8rem;
+    background-color: white;
+    font-family: 'Staatliches', cursive;
+
+}
+.contact ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+
+}
+
+.contact li {
+    margin: 1rem;
+}
+
+.contact a {
+    color: black;
+    text-decoration: none;
+}
+
+.contact li a:hover {
+    color: #FFC600;
+}
+
+footer {
+    background-color: #E900FF;
+    text-align: center;
+    margin: 1rem 0;
+    padding: 1rem 0;
+}
