@@ -89,23 +89,23 @@ nav a:hover {
     margin: .5rem;
 }
 
-.work h2 {
-    text-align: center;
-    font-size: 26px;
-    color: white;
-    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
-}
-
-.work a {
-    text-decoration: none;
-}
-
 .flex-images {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
     margin: .5rem;
+}
+
+.work a {
+    text-decoration: none;
+    font-size: 26px;
+    color: white;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+.work a:hover {
+    color: #FFC600;
 }
 
 #first-image {
@@ -130,6 +130,7 @@ nav a:hover {
     background-size: cover;
     border: .2rem solid #FFC600 ;
     margin: 1rem;
+    text-align: center;
 }
 
 #second-image {
@@ -158,6 +159,8 @@ nav a:hover {
 
 .contact h2 {
     font-size: 2.5rem;
+    color: black;
+    text-shadow: -1px -1px 0 #FFC600, 1px -1px 0 #FFC600, -1px 1px 0 #FFC600, 1px 1px 0 #FFC600;
 }
 
 .contact ul {
@@ -173,11 +176,12 @@ nav a:hover {
 
 .contact a {
     color: black;
+    text-shadow: -1px -1px 0 #FFC600, 1px -1px 0 #FFC600, -1px 1px 0 #FFC600, 1px 1px 0 #FFC600;
     text-decoration: none;
 }
 
 .contact a:hover {
-    color: #FFC600;
+    color: white;
 }
 
 footer {
