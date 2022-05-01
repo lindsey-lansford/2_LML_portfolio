@@ -23,6 +23,7 @@ Here is a list of the key items that make my portfolio user-friendly across all 
 
 The following screenshot shows the web application's appearance:
 
+![Screenshot_portfolio_FINAL](https://user-images.githubusercontent.com/103006599/166129004-b96a7d50-8a06-4a0c-b263-acff407c8a60.png)
 
 To view this web application, [click here](https://lindsey-lansford.github.io/2_LML_portfolio/#) .
 
