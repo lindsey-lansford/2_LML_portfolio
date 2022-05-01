@@ -7,7 +7,7 @@
     <title>Lindsey's Portfolio</title>
     <link rel="stylesheet" href="style.css">
     <!-- favicon -->
-    <link rel="shortcut icon" href="/resources/favicon.ico" type="image/x-icon"/>
+    <link rel="shortcut icon" href="./resources/favicon.ico" type="image/x-icon"/>
     <!-- google fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -28,23 +28,49 @@
         </nav>
     </header>
     
-    <main>
-        <section class="about" id="about">
-        <div class="hero-image">
-            <img class="profile-image" src="./resources/profpic1.jpg" alt="profile">
-            <h1>Welcome,  I'm Lindsey.</h1>
-            <br>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint magni, necessitatibus dolor incidunt consequuntur dignissimos quidem repudiandae corporis cumque rerum quas quos, sed vel obcaecati!</p>
+<div class="hero-image">
+    <section class="about" id="about">
+        <img class="profile-image" src="./resources/profpic1.jpg" alt="profile">
+        <div class="about-content">
+            <h1>Welcome, I'm Lindsey.</h1>
+            <p>I am a full stack software developer student learning HTML, CSS & Javascript. I hope you enjoy browsing through some of my work below.</p>
         </div>
     </section>
+</div>
 
-        <section class="work" id="work">
-            <a href="#"> <img src="./resources/black_canyon.JPG" alt="Black Canyon National Park"></a>
-                <a href="#"> <img src="./resources/aspens_in_valley.JPG" alt="Fall trees and moutains"></a>
-                <a href="#"> <img src="./resources/sanddunes.JPG" alt="Sand Dunes"></a>
-                <a href="#"> <img src="./resources/treetops.JPG" alt="Autumn Trees in CO"></a>
-                <a href="#"> <img src="./resources/outwest.JPG" alt="Gunnison CO"></a>
-        </section>
+
+    <section class="work" id="work">
+        
+        <div id="first-image">
+            <a href="#">
+            <h2>Black Canyons</h2>    
+        </div>
+
+        <div class="flex-images">
+
+                <div id="second-image" class="image-styles">
+                    <a href="#">
+                    <h2>Aspens in Fall</h2>     
+                </div>
+
+                <div id="third-image"class="image-styles">
+                    <a href="#"> 
+                    <h2>Aspen Trees in CO</h2>  
+                </div>
+                
+                <div id="forth-image"class="image-styles">
+                    <a href="#"> 
+                    <h2>Sand Dunes</h2>  
+                </div>
+                
+                <div id="fifth-image" class="image-styles">
+                    <a href="#"> 
+                    <h2>Out West</h2>
+                </div>
+        </div>
+
+    </section>
+
 
         <section class="contact" id="contact">
             <h2>Get in Touch</h2>
@@ -54,10 +80,9 @@
                 <li><i class="fa-brands fa-linkedin"></i><a href="https://www.linkedin.com/in/lindsey-lansford/">LinkedIn</a></li>
             </ul>
         </section>
-    </main>
     
     <footer>
-        <h4> &copy; Lindsey 🧿 Lansford </h4>
+        <h4> &copy; Lindsey 🧿 Lansford 2022</h4>
     </footer>  
     
 </body>
