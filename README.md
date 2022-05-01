@@ -14,7 +14,7 @@ Here is a list of the key items that make my portfolio user-friendly across all 
 
 * **Google Font, Favicons & Icons**: I added a few links in my meta data to give my application some unique elements.
 
-* **Hover Psuedo Selector**: The hover selector is a fun way to add style and color to anchor links and make them a little less 1999.
+* **Hover Pseudo Selector**: The hover selector is a fun way to add style and color to anchor links and make them a little less 1999.
 
 * **Box Model**: Changing the padding and margins is a great way to display your elements in different positions across the site.
 
